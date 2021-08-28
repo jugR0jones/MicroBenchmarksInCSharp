@@ -1,6 +1,6 @@
-﻿namespace IntegerAsStringFormatting
+﻿namespace IntegerAsStringFormatting.Classes
 {
-    public class FixedWidthFormatter
+    public static class FixedWidthFormatter
     {
         public static string OutputAs000(int input)
         {

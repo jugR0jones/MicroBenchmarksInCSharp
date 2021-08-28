@@ -1,13 +1,16 @@
 ﻿using BenchmarkDotNet.Running;
 using IntegerAsStringFormatting.Benchmarks;
+using IntegerAsStringFormatting.Demo;
 
 namespace IntegerAsStringFormatting
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            var summaryReport = BenchmarkRunner.Run<FixedWidthFormatterBenchmarks>();
+//            FixedWidthFormatterDemo.Run();
+
+            BenchmarkRunner.Run<FixedWidthFormatterBenchmarks>();
         }
     }
 }

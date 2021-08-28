@@ -1,4 +1,5 @@
 ﻿using BenchmarkDotNet.Attributes;
+using IntegerAsStringFormatting.Classes;
 
 namespace IntegerAsStringFormatting.Benchmarks
 {
